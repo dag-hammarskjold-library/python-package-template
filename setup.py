@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-NAME = ''
+NAME = 'package'
 DESCRIPTION = ''
-VERSION = ''
+VERSION = '0.0'
 
 with open("README.md") as f:
     long_description = f.read()
@@ -26,7 +26,9 @@ setup(
     python_requires = '>=3.8',
     entry_points = {
         # see https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-console-scripts-entry-point
-        'console_scripts': []
+        'console_scripts': [
+            'run-script=package.scripts.script:run' # rename the command and the patch to the function
+        ]
     }
 )
 
