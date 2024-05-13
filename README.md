@@ -1,4 +1,6 @@
-# python-library-template
-Template repository for Python libraries. 
+# python-package-template
+Template repository for DHL Python packages. 
 
-Python libraries can be used to import functions, classes, and command line applications into a Python environment. This template provides an outline for writing a library that can be installed directly from the Github source code, i.e. `pip install git+<repository URL>`
+This template provides a skeleton directory structure for creating a [Python package](https://docs.python.org/3/tutorial/modules.html#packages). Python packages are collections of [Python modules](https://docs.python.org/3/tutorial/modules.html). For many projects, a single Python module is sufficient. Packages are for projects that may need to combine multiple modules.
+
+These packages can be installed into a Python virutal environment directly from the Github source code, i.e. `pip install git+<repository URL>`
