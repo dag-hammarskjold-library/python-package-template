@@ -1,5 +1,5 @@
 # set up pytest fixtures 
-# here https://docs.pytest.org/en/7.1.x/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files
+# https://docs.pytest.org/en/8.2.x/explanation/fixtures.html#about-fixtures
 
 import pytest
 
